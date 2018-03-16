@@ -1,0 +1,17 @@
+
+
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="custom-form">
+            <div class="messages"></div>
+            <div class="controls">
+                <div class="form-group">
+                    <input id="name" type="text" name="name" class="form-control" ngModel placeholder="Please enter your name *" >
+                </div>
+                <div class="form-group">
+                    <input id="email" type="email" name="email" class="form-control" ngModel placeholder="Please enter your email *" >
+                </div>
+                <div class="form-group">
+                    <textarea id="content" name="content" class="form-control" ngModel placeholder="Message for me *" ></textarea>
+                </div>
+                <input type="submit" class="btn btn-primary btn-send">
+            </div>
+        </form>
