@@ -22,9 +22,7 @@ import { SigninComponent } from './auth/signin.component';
 import { SignupComponent } from './auth/signup.component';
 import { HttpModule } from '@angular/http';
 import { MessagexComponent } from './messagex/messagex.component';
-import { FacebookComponent } from './facebook/facebook.component';
-import { InstagramComponent } from './instagram/instagram.component';
-import { TwitterComponent } from './twitter/twitter.component';
+import { PortfolioxComponent } from './portfoliox/portfoliox.component';
 
 
 @NgModule({
@@ -47,9 +45,7 @@ import { TwitterComponent } from './twitter/twitter.component';
     SigninComponent,
     SignupComponent,
     MessagexComponent,
-    FacebookComponent,
-    InstagramComponent,
-    TwitterComponent
+    PortfolioxComponent
   ],
   imports: [
     BrowserModule,
